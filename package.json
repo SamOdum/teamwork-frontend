@@ -27,5 +27,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<!-- [![Build Status](https://travis-ci.org/SamOdum/teamwork-backend.svg?branch=develop)](https://travis-ci.org/SamOdum/teamwork-backend)\r [![Maintainability](https://api.codeclimate.com/v1/badges/f705813f749afd9bdc5b/maintainability)](https://codeclimate.com/github/SamOdum/teamwork-backend/maintainability)\r [![Coverage Status](https://coveralls.io/repos/github/SamOdum/teamwork-backend/badge.svg?branch=develop)](https://coveralls.io/github/SamOdum/teamwork-backend?branch=develop) [![Greenkeeper badge](https://badges.greenkeeper.io/SamOdum/teamwork-backend.svg)](https://greenkeeper.io/) -->",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamOdum/teamwork-frontend.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "social",
+    "media"
+  ],
+  "author": "Sam Odum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamOdum/teamwork-frontend/issues"
+  },
+  "homepage": "https://github.com/SamOdum/teamwork-frontend#readme"
 }
