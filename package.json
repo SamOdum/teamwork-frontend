@@ -3,15 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jwt-decode": "^2.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,7 +41,14 @@
   },
   "description": "<!-- [![Build Status](https://travis-ci.org/SamOdum/teamwork-backend.svg?branch=develop)](https://travis-ci.org/SamOdum/teamwork-backend)\r [![Maintainability](https://api.codeclimate.com/v1/badges/f705813f749afd9bdc5b/maintainability)](https://codeclimate.com/github/SamOdum/teamwork-backend/maintainability)\r [![Coverage Status](https://coveralls.io/repos/github/SamOdum/teamwork-backend/badge.svg?branch=develop)](https://coveralls.io/github/SamOdum/teamwork-backend?branch=develop) [![Greenkeeper badge](https://badges.greenkeeper.io/SamOdum/teamwork-backend.svg)](https://greenkeeper.io/) -->",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.19.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SamOdum/teamwork-frontend.git"
