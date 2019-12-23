@@ -4,7 +4,7 @@ import { Icon } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import SidebarItem from './SidebarItem';
 import navs from './navs';
-import avater from '../../../assets/avater.svg';
+import avatar from '../../../assets/avatar.svg';
 
 const Sidebar = ({ toggler, isOpen }) => {
 	return (
@@ -14,7 +14,7 @@ const Sidebar = ({ toggler, isOpen }) => {
 					{'<'}Team<span>Work{'/>'}</span>
 				</h1>
 				<div className="item">
-					<img alt="logo" width="100%" src={avater} />
+					<img alt="logo" width="100%" src={avatar} />
 				</div>
 				<ul>
 					{navs.map((nav) => (

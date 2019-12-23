@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: white;
+}
+
+.wrapper {
+	display: flex;
+	position: relative;
+}
+
+.sidebar-logo {
+	text-align: center;
+	color: #132793;
+}
+.sidebar-logo > span {
+	color: #aaa;
+}
+
+.wrapper .sidebar {
+	overflow: auto;
+	width: 265px;
+	height: 100%;
+	background: #e7e6f5;
+	padding: 30px 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	opacity: .9;
+	overflow-x: hidden;
+	transition-duration: .5s;
+}
+
+.wrapper .sidebar ul li {
+	padding: 17px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	transition-duration: .1s;
+	transition: border-left, .5s, linear;
+}
+
+.wrapper .sidebar ul li a {
+	display: block;
+	font-size: 16px;
+	color: rgb(53, 53, 53);
+}
+
+.icon-bottom {
+	vertical-align: bottom !important;
+}
+
+.wrapper .sidebar ul li:hover {
+	background-color: #6c63ff;
+}
+
+.wrapper .sidebar ul li:hover a {
+	color: #fff;
+}
+
+.wrapper .main_content {
+	width: 100%;
+	margin-left: 265px;
+	margin-top: 4rem;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+}
+
+.wrapper .main_content .info {
+	margin: 20px;
+	color: #717171;
+	line-height: 25px;
+}
+
+.nav-btn {
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	background: #6c63ff;
+	top: 12px;
+	z-index: 9999;
+	transform: translate3d(265px, 0, 0);
+	line-height: 55px;
+	text-align: center;
+	padding: 0;
+	transition-duration: .5s;
+	cursor: pointer;
+	color: #fff;
+}
+
+.wrapper .is-close {
+	width: 0px !important;
+	transform: translate3d(0, 0, 0);
+}
+
+.close-btn {
+	transform: translate3d(10px, 0, 0);
+}
+
+.close-main {
+	width: 265px;
+}
+
+.open-main {
+	margin-left: 0px !important;
+}
+
+.item {
+	width: 100%;
+	transition-duration: .1s;
+	transition: border-left, .5s, linear;
+	opacity: 1;
+	padding: 48px;
+}
+
+@media (max-height: 500px) {
+	.social_media {
+		display: none !important;
+	}
+}
