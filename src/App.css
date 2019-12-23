@@ -1,0 +1,34 @@
+.aside {
+	background: #f4f4f4;
+	height: 100vh;
+	position: relative;
+	overflow-y: hidden;
+}
+
+.login-container {
+	padding: 1.5rem;
+	overflow-y: hidden !important;
+}
+
+.login-container h1 {
+	text-align: center;
+	margin-bottom: 3rem;
+	color: #aaa;
+}
+
+.login-container button {
+	background: #3359df !important;
+	color: #ffffff !important;
+}
+
+.logo {
+	padding: 3rem;
+	color: #132793;
+}
+.logo > span {
+	color: #aaa;
+}
+
+.add-user-form {
+	margin-bottom: 3rem;
+}
