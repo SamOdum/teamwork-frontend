@@ -1,6 +1,6 @@
 /* eslint-disable consistent-return */
 export const makeUrl = (path) => {
-	const base = process.env.BASE_URL;
+	const base = process.env.REACT_APP_BASE_URL;
 	const uri = `${base}${path}`;
 	return uri;
 };
